@@ -1,5 +1,6 @@
 // This file will handle any errors that occur in the application and send a response to the client
 
+// eslint-disable-next-line no-unused-vars
 const errorHandler = (err, req, res, next) => {
     console.log('[ERROR]', err) 
 
